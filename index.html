@@ -1,10 +1,11 @@
 <head>
   <link rel="stylesheet" href="" /> <!-- changed from  to  to import all the weights of the poppins font -->
+  <meta name="viewport" content="width=300, minimum-scale=0.5, maximum-scale=2" /> <!-- added this line to set the viewport width and zoom levels -->
 </head>
 
 <div class="box">
   <img src="https://diegobiaggioni.com.br/wp-content/uploads/2023/06/teste-notion-t05-q100-compress.png" alt="Image" class="image">
-  <p class="text">Teste de um texto maior para ver como se comporta a caixa!</p>
+  <p class="text">Teste de um texto maior para ver como se comporta a caixa! Agora está fantástico, vou poder fazer muita propaganda grátis</p>
   <a href="https://www.instagram.com/biaggionidiego/reels/" class="button">Compre batom</a>
 </div>
 
@@ -13,14 +14,13 @@
   @import url('https://fonts.googleapis.com/css?family=Poppins:400&display=swap');
   * {
     box-sizing: border-box;
-    margin: 20;
     padding: 0;
   }
 
   .box {
-    width: 90%; /* added this line to set the width of the box as a percentage of the available space */
-    min-width: 300px; /* added this line to set a minimum width for the box */
-    max-width: 800px; /* added this line to set a maximum width for the box */
+    width: 300px; /* added this line to set the width of the box to 300px */
+    min-width: 300px; /* added this line to set the minimum width of the box to 300px */
+    max-width: 300px; /* added this line to set the maximum width of the box to 300px */
     min-height: 300px; /* added this line to set a minimum height for the box */
     background-color: #f0f0f0;
     border-radius: 10px;
@@ -30,7 +30,7 @@
     align-items:center;
    
    overflow: hidden; /* added this line to clip the image */
-   margin: 10px 0px 10px 0px; /* added this line to remove the margin of the box */
+   margin: 0; /* added this line to remove the margin of the box */
 }
 
 .image {
