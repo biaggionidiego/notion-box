@@ -6,7 +6,7 @@
 <div class="box">
   <img src="https://diegobiaggioni.com.br/wp-content/uploads/2023/06/teste-notion-t05-q100-compress.png" alt="Image" class="image">
   <p class="text">Teste de um texto maior para ver como se comporta a caixa! Agora está fantástico, vou poder fazer muita propaganda grátis</p>
-  <a href="https://www.instagram.com/biaggionidiego" class="button">Compre batom</a>
+  <a href="https://www.instagram.com/biaggionidiego" class="button">Compre Suflair</a>
 </div>
 
 <style>
@@ -48,11 +48,11 @@
 
 .text {
    font-family :'Poppins', sans-serif; 
-   font-size :16px; 
+   font-size :clamp(14px, 5%, 28px); /* usando a função clamp() para definir o tamanho da fonte em porcentagem com limites mínimos e máximos */
    font-weight :400; /* changed from font-weight:600 to font-weight:400 */
    color :#333333; 
-   text-align :center; 
-   margin :20px 0; 
+   text-align :center;
+   margin :20px 15px 15px 15px; 
 }
 
 .button {
