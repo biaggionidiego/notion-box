@@ -20,6 +20,7 @@
   .box {
     width: 90%; /* added this line to set the width of the box as a percentage of the available space */
     min-width: 300px; /* added this line to set a minimum width for the box */
+    max-width: 800px; /* added this line to set a maximum width for the box */
     min-height: 300px; /* added this line to set a minimum height for the box */
     background-color: #f0f0f0;
     border-radius: 10px;
@@ -29,6 +30,7 @@
     align-items:center;
    
    overflow: hidden; /* added this line to clip the image */
+   margin: 0; /* added this line to remove the margin of the box */
 }
 
 .image {
@@ -84,3 +86,9 @@
   align-self: center; /* added to align the button to the center of the box */
 }
 </style>
+
+<body>
+  display: flex;
+  align-items: center;
+  justify-content: center;
+</body>
