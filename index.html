@@ -4,7 +4,7 @@
 
 <div class="box">
   <img src="https://diegobiaggioni.com.br/wp-content/uploads/2023/06/teste-notion-t05-q100-compress.png" alt="Image" class="image">
-  <p class="text">Teste de um texto maior para ver como se comporta a caixa! Acho que agora identifiquei erro e ao que parece vai dar tudo certo daqui para frente.</p>
+  <p class="text">Teste de um texto maior para ver como se comporta a caixa!</p>
   <a href="https://www.instagram.com/biaggionidiego/reels/" class="button">Compre batom</a>
 </div>
 
@@ -18,8 +18,8 @@
   }
 
   .box {
-    width: 90%;
-    max-width: 300px;
+    width: 90%; /* added this line to set the width of the box as a percentage of the available space */
+    min-width: 300px; /* added this line to set a minimum width for the box */
     min-height: 300px; /* added this line to set a minimum height for the box */
     background-color: #f0f0f0;
     border-radius: 10px;
@@ -50,7 +50,7 @@
    font-weight :400; /* changed from font-weight:600 to font-weight:400 */
    color :#333333; 
    text-align :center; 
-   margin :15px; 
+   margin :20px 0; 
 }
 
 .button {
